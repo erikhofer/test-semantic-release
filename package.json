@@ -1,14 +1,16 @@
 {
   "name": "test-semantic-release",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erikhofer/test-semantic-release.git"
+    "url": "https://github.com/erikhofer/test-semantic-release.git"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/erikhofer/test-semantic-release/issues"
   },
-  "homepage": "https://github.com/erikhofer/test-semantic-release#readme"
+  "homepage": "https://github.com/erikhofer/test-semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
 }
