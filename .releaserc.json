@@ -1,5 +1,5 @@
 {
   "release": {
-    "branches": [{ "name": "master", "channel": "beta", "prerelease": true }]
+    "branches": [{ "name": "master", "channel": "beta", "prerelease": "beta" }]
   }
 }
